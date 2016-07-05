@@ -36,7 +36,7 @@ class Solution(object):
         for s_i in list_s[1:]:
             if len(s_i) > s_length:
                 s_result = s_i
-        return(s_result, s_length + 1)
+        return(s_result, len(s_result))
 
 
 
